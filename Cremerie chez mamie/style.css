@@ -1,0 +1,118 @@
+:root {
+    --pink: #F4A9B7; 
+    --light-pink: #FFC0CB;
+    --dark-gray: #4D4D4D;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8F0;
+    color: var(--dark-gray);
+    background: radial-gradient(circle, var(--light-pink) 10%, white 90%);
+    font-family: 'Pacifico', cursive;
+}
+
+
+.logo {
+    height: auto;
+    width: 90px; 
+    max-width: 100%;
+}
+
+.btn-pink {
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: var(--light-pink);
+}
+
+
+.hero {
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 50px;
+    background: rgba(255, 192, 203, 0.3);
+}
+
+/* CTA Button */
+.btn-cta {
+    background-color: #F4A9B7; 
+    color: white;
+    padding: 12px 25px; 
+    border-radius: 30px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; 
+}
+
+
+.btn-cta:hover {
+    background-color:var(--light-pink); 
+    transform: scale(1.05); 
+}
+
+
+footer.bg-white {
+    background-color: white;
+    color: #333; 
+}
+
+footer .footer-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+footer .footer-socials a {
+    font-size: 20px;
+    color: #333; 
+    transition: color 0.3s;
+}
+
+footer .footer-socials a:hover {
+    color: #f4a9b7; 
+}
+
+footer .text-uppercase {
+    font-weight: bold;
+}
+
+footer .footer-bottom {
+    font-size: 14px;
+    margin-top: 20px;
+}
+@media (max-width: 991px) { 
+    .navbar-nav {
+        text-align: center; 
+        width: 100%;
+    }
+    
+    .navbar-collapse {
+        background: white; 
+        padding: 10px 0;
+    }
+    
+    .btn-pink {
+        display: block; 
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
